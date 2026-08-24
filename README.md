@@ -30,14 +30,14 @@ The AI opponent selects moves using a heuristic evaluation function that scores 
 - JavaFX SDK 25.0.2
 
 # Build & Run 
-git clone https://github.com/<your-username>/quax-game.git
+git clone https://github.com/ < your-username > /quax-game.git
 cd quax-game
 
 java --module-path <JDKPath>/javafx-sdk-25.0.2/lib \
      --add-modules javafx.controls,javafx.fxml \
      -jar quax-game.jar
 
-<JDKPath> is the path to your local javafx-sdk-25.0.2/lib directory 
+< JDKPath > is the path to your local javafx-sdk-25.0.2/lib directory 
 
 # How to Play 
 1. Launch the game using the command above
