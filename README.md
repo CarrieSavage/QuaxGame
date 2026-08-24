@@ -25,22 +25,8 @@ Players alternate placing stones (octagon or rhombus tiles) on the board, with e
 # AI Opponent 
 The AI opponent selects moves using a heuristic evaluation function that scores potential board states, allowing it to play competitively against human opponents. Its reasoning can be inspected live via the show strategy toggle, which overlays the bot's evaluated candidate moves on the board. 
 
-# Prerequisites 
-- Oracle OpenJDK 25.0.2
-- JavaFX SDK 25.0.2
-
-# Build & Run 
-git clone https://github.com/ < your-username > /quax-game.git
-cd quax-game
-
-java --module-path <JDKPath>/javafx-sdk-25.0.2/lib \
-     --add-modules javafx.controls,javafx.fxml \
-     -jar quax-game.jar
-
-< JDKPath > is the path to your local javafx-sdk-25.0.2/lib directory 
-
 # How to Play 
-1. Launch the game using the command above
+1. Launch the game using the launch instructions
 2. Click an octagon or rhombus cell to place the first stone
 3. Player 2 may optionally activate the pie rule to swap colours
 4. Keep alternating placements, click show strategy at any point to see the bot's move evaluation
